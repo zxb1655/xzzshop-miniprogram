@@ -1,5 +1,5 @@
-const ApiRootUrl = "http://localhost:8360/api/";
-// const ApiRootUrl = 'http://192.168.16.100:8360/api/';
+// const ApiRootUrl = "http://localhost:8360/api/";
+const ApiRootUrl = 'http://192.168.16.100:8360/api/';
 // const ApiRootUrl = "https://shopserver.zxb66.top/api/";
 
 module.exports = {
