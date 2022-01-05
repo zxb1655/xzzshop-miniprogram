@@ -1,0 +1,5 @@
+<view class="container">
+    <view class='about-wrap'>
+        <view class='title'>{{info.title}}</view>
+    </view>
+</view>

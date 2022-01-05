@@ -1,0 +1,28 @@
+<view class="comment">
+    <view class="head">
+        <text data-num="1" class="t {{type == 1 ? 'active' : ''}}" bindtap="handleNav">全部</text>
+        <text data-num="2" class="t {{type == 2 ? 'active' : ''}}" bindtap="handleNav">好评(99+)</text>
+        <text data-num="3" class=" {{type == 3 ? 'active' : ''}}" bindtap="handleNav">中差评(0)</text>
+    </view>
+    <view class="content" wx:if="{{type == 1 || type == 2}}">
+        <view class="list" wx:for="{{commentList}}" wx:key="id">
+            <view class="list_head">
+                <image src="{{item.avatar}}"></image>
+                <view class="info">{{item.name}}</view>
+            </view>
+            <view class="list_center">
+                {{item.content}}
+            </view>
+            <view class="list_bottom" wx:if="{{item.image_url.length > 0}}">
+                <image bindtap="preview" data-url="{{iitem}}" data-index="{{index}}" src="{{iitem}}"
+                wx:for-index="iindex" wx:for-item="iitem" wx:for="{{item.image_url}}" wx:key="index"></image>
+            </view>
+        </view>
+        <view class="footer">
+            已折叠99+条对您帮助不大的评价 >
+        </view>
+    </view>
+    <view class="noContent" wx:else>
+        暂无中差评
+    </view>
+</view>

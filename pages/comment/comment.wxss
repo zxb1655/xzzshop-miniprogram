@@ -1,0 +1,77 @@
+.comment{
+    background-color: #fff;
+}
+.comment .head{
+    height: 100rpx;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    padding-left: 30rpx;
+    font-size: 28rpx;
+    font-weight: 0;
+    border-radius: 0 0 20rpx 20rpx;
+}
+.comment .head .t{
+    margin-right: 50rpx;
+}
+.comment .head .active{
+    color: #ca2a1d;
+}
+.noContent{
+    font-size: 40rpx;
+    color: #666;
+    text-align: center;
+    margin-top: 150rpx;
+}
+.footer{
+    padding-top: 30rpx;
+    text-align: center;
+    color: #666;
+    font-size: 24rpx;
+    height: 100rpx;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20rpx 20rpx 0 0;
+    background-color: #f9f9f9;
+}
+.list{
+    margin: 0 auto 20rpx;
+    box-sizing: border-box;
+    border-radius: 20rpx;
+    padding: 20rpx;
+    width: 95%;
+    background-color: #fff;
+}
+.list_head{
+    display: flex;
+    align-items: center;
+}
+.list_head .info{
+    margin-left: 10rpx;
+    font-size: 26rpx;
+    color: #000;
+    font-weight: 900;
+}
+.list_head image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.list_center{
+    margin-top: 20rpx;
+    color: #666;
+    font-size: 24rpx;
+}
+.list_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+.list_bottom image{
+    width: 210rpx;
+    height: 210rpx;
+    margin-bottom: 10rpx;
+    margin-right: 10rpx;
+    border-radius: 10rpx;
+}
