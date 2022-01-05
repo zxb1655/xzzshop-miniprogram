@@ -18,7 +18,7 @@
 
 ### 项目截图
 
-<img width="1400" src="https://cdn.jzzz66.cn/prexzzshop.png"/>
+<img width="1400" src="http://cdn.jzzz66.cn/prexzzshop.png"/>
 
 ### 功能列表
 
