@@ -9,7 +9,7 @@
 
 ### 目前猪猪小店已经上线，可以扫码测试看看
 
-<img width="300" src="https://cdn.jzzz66.cn/xzzshop.jpeg"/>
+<img width="300" src="./gitImg/xzzshop.jpeg"/>
 
 #### 本项目需要配合
 
@@ -18,7 +18,7 @@
 
 ### 项目截图
 
-<img width="1400" src="http://cdn.jzzz66.cn/prexzzshop.png"/>
+<img width="1400" src="./gitImg/prexzzshop.png"/>
 
 ### 功能列表
 
@@ -38,4 +38,4 @@
   微信小程序：https://github.com/zxb1655/xzzshop-miniprogram
 
 - 本项目会持续更新和维护，有问题可通过微信联系我，喜欢别忘了 Star 一下哦，谢谢您的关注。
-  <img width="300" src="https://cdn.jzzz66.cn/weixin.jpeg"/>
+  <img width="300" src="./gitImg/weixin.jpeg"/>
