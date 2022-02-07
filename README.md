@@ -7,6 +7,10 @@
 - 小程序端 基于原生小程序开发
 - 目前微信登录、支付，快递查询均正常使用
 
+### 视频演示
+
+b 站视频详细演示： https://www.bilibili.com/video/BV18Z4y1S7Vp/
+
 ### 目前猪猪小店已经上线，可以扫码测试看看
 
 <img width="300" src="./gitImg/xzzshop.jpeg"/>
